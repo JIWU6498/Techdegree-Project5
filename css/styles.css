@@ -1,4 +1,13 @@
 /* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+* {
+  font-family: "Lato", sans-serif;
+  color: #777;
+  box-sizing: border-box;
+}
+
+/* ============================================= */
 /*                 Navigation                    */
 /* ============================================= */
 .logoContainer {
@@ -9,8 +18,8 @@
   text-align: center;
 }
 .logoContainer .logo {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   max-width: 100%;
   padding: 15px 15px;
 }
@@ -21,16 +30,15 @@
 .searchContainer {
   margin: auto;
   text-align: center;
-  padding-bottom: 20px;
   background-color: lightblue;
-  height: 60px;
+  height: 80px;
 }
 .searchContainer .searchInput {
-  width: 70%;
-  border: 2x solid black;
+  width: 60%;
+  border: 2px solid #ffffff;
   vertical-align: middle;
-  padding: 8px 5px;
-  margin-top: 10px;
+  padding: 5px 5px;
+  margin: 22px auto;
 }
 
 /* ============================================= */
