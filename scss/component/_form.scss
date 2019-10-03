@@ -2,17 +2,18 @@
 /*                    Form                       */
 /* ============================================= */
 
-.searchContainer{
-   margin:auto;
+.searchContainer {
+   margin: auto;
    text-align: center;
-   background-color:lightblue;
-   height:80px;
+   background-color: lightblue;
+   height: 80px;
 
-   .searchInput{
-      width:60%;
+   .searchInput {
+      width: 60%;
       border: 2px solid #ffffff;
+      border-radius: 2px;
       vertical-align: middle;
-      padding:5px 5px;
-      margin:22px auto;
+      padding: 5px 5px;
+      margin: 22px auto;
    }
 }
