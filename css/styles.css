@@ -16,13 +16,11 @@
   margin: auto;
   text-align: center;
 }
-
 .logoContainer .logo {
   width: 80px;
   height: 80px;
   max-width: 100%;
   padding: 15px 15px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -32,23 +30,22 @@
 .searchContainer {
   margin: auto;
   text-align: center;
-  height: 80px;
+  height: 100px;
 }
-
 .searchContainer .searchInput {
   width: 60%;
   border: 1px solid #e5e5e5;
   border-radius: 4px;
   vertical-align: middle;
   padding: 5px 10px;
-  margin: 22px auto;
+  margin: 42px 0 22px 0;
 }
-
 @media (min-width: 768px) {
   .searchContainer .searchInput {
     width: 480px;
   }
 }
+
 /* ============================================= */
 /*                   Images                      */
 /* ============================================= */
@@ -56,37 +53,26 @@
   margin: auto;
   text-align: center;
 }
-
 @media (min-width: 768px) {
   .imgContainer {
     max-width: 1160px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
   }
 }
 .imgContainer div {
-  margin: 0 30px 20px 30px;
+  margin: 20px;
 }
-
 .imgContainer img {
   width: 350px;
   height: 350px;
 }
-
 @media (min-width: 768px) {
   .imgContainer img {
     width: 200px;
     height: 200px;
   }
 }
-/*# sourceMappingURL=styles.css.map */
 
 /*# sourceMappingURL=styles.css.map */
