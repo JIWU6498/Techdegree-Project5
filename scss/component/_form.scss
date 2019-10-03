@@ -1,0 +1,19 @@
+/* ============================================= */
+/*                    Form                       */
+/* ============================================= */
+
+.searchContainer{
+   margin:auto;
+   text-align: center;
+   background-color:lightblue;
+   height:60px;
+
+   .searchInput{
+      width:60%;
+      border: 2x solid black;
+      vertical-align: middle;
+      padding:8px 5px;
+      box-sizing:border-box;
+      margin-top:20px;
+   }
+}
