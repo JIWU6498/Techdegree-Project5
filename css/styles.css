@@ -72,17 +72,15 @@
 .imgContainer ul li {
   list-style: none;
   display: block;
-}
-.imgContainer ul li div {
   margin: 20px;
 }
-.imgContainer ul li div img {
+.imgContainer ul li img {
   width: 300px;
   height: 300px;
   margin: auto;
 }
 @media (min-width: 768px) {
-  .imgContainer ul li div img {
+  .imgContainer ul li img {
     width: 200px;
     height: 200px;
   }
