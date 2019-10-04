@@ -6,7 +6,7 @@
    text-align: center;
 
    @include media-query-l($break-l) {
-      max-width: 1300px;
+      max-width: 1160px;
       display: flex;
       flex-flow: row wrap;
       justify-content: center;

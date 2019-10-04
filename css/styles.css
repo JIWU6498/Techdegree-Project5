@@ -75,4 +75,12 @@
   }
 }
 
+/* ============================================= */
+/*                 Venobox                       */
+/* ============================================= */
+.vbox-title {
+  height: 200px;
+  background-color: transparent !important;
+}
+
 /*# sourceMappingURL=styles.css.map */
