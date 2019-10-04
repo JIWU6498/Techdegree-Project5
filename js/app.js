@@ -5,24 +5,31 @@ $("#header").sticky({
 
 //jQuery Plugin for lightBox
 $(".venobox").venobox({
-   framewidth: '800px',        
-   titleattr: 'title',    
-   numeratio: true,            
-   infinigall: true ,          
+   framewidth: '800px',
+   titleattr: 'title',
+   numeratio: true,
+   infinigall: true,
    titlePosition: "bottom",
-   numeratio:true
+   numeratio: true
 });
 
 //jQuery Plugin for keywords filtering
-$(".searchInput").hideseek({
-   attribute: 'data-name',
-});
+// $(".searchInput").hideseek({
+//    attribute: 'data-name',
+// });
 
 //javascript for searchbox filtering
-// $(".searchInput").on("keyup", function() {
-//    const value = $(this).val().toLowerCase();
-//    $("a[title]").filter(function() {
-//      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-//    });
-//  });
+$(".searchInput").on("keyup", function () {
+   const $search = $(this).val().toLowerCase();
+   // console.log($search);
+   const $title = document.getElementsByTagName("a");
+   for (let i = 0; i < $title.length; i++) {
+      let $titleDec = $title[i].getAttribute("title");
+      if ($titleDec.includes($search)) {   
+         $title[i].parentNode.style.display = "block";  
+      } else {
+         $title[i].parentNode.style.display = "none";
+      }
+   }
+});
 
