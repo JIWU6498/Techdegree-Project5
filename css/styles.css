@@ -56,20 +56,33 @@
 @media (min-width: 768px) {
   .imgContainer {
     max-width: 1160px;
+  }
+}
+.imgContainer ul {
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .imgContainer ul {
+    max-width: 1160px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
 }
-.imgContainer div {
+.imgContainer ul li {
+  list-style: none;
+  display: block;
+}
+.imgContainer ul li div {
   margin: 20px;
 }
-.imgContainer img {
-  width: 350px;
-  height: 350px;
+.imgContainer ul li div img {
+  width: 300px;
+  height: 300px;
+  margin: auto;
 }
 @media (min-width: 768px) {
-  .imgContainer img {
+  .imgContainer ul li div img {
     width: 200px;
     height: 200px;
   }
