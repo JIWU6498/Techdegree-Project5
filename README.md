@@ -1,4 +1,4 @@
-# Techdegree-Project5 An Interactive Photo Gallery
+# Techdegree-Project5:An Interactive Photo Gallery
 
 ## Concept
 jQuery Plugin
